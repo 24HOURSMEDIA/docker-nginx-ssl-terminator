@@ -1,0 +1,18 @@
+version: '3.7'
+
+services:
+
+  sslterminator:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        NGINX_IMAGE: ${NGINX_IMAGE:-nginx:1.25-alpine3.18-slim}
+    ports:
+      - 8443:443
+    environment:
+      - "BACKEND_HOST=nginx"
+
+  nginx:
+    image: nginx:1.19.6-alpine
+
