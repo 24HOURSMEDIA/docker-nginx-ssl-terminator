@@ -10,6 +10,7 @@ services:
         NGINX_IMAGE: ${NGINX_IMAGE:-nginx:1.25-alpine3.18-slim}
     ports:
       - 8443:443
+      - 8480:80
     environment:
       - "BACKEND_HOST=nginx"
 
