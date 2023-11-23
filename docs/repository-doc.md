@@ -34,7 +34,7 @@ services:
   sslterminator:
     image: nginx-ssl-terminator:1.0-latest
     ports:
-      # expose on port 443 on the host, and port 80 for redirecting to 443
+      # expose on https port 443 on the host, and http port 80 for redirecting https
       - "443:443"
       - "80:80"
     environment:
