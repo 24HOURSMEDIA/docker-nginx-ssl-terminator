@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="d"
+                 name="Nginx SSL Terminator for Docker"
+                 start-page="introduction.md">
+
+    <toc-element topic="introduction.md"/>
+    <toc-element topic="Configuration.md"/>
+    <toc-element topic="SSL-Certificates.md"/>
+    <toc-element topic="Examples.md"/>
+    <toc-element topic="starter-topic.md"/>
+</instance-profile>
