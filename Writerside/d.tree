@@ -9,5 +9,7 @@
     <toc-element topic="introduction.md"/>
     <toc-element topic="Configuration.md"/>
     <toc-element topic="SSL-Certificates.md"/>
-    <toc-element topic="Examples.md"/>
+    <toc-element topic="Examples.md">
+        <toc-element topic="Basic-docker-compose.md"/>
+    </toc-element>
 </instance-profile>

@@ -1,7 +1,7 @@
 # Docker Nginx SSL Terminator
 
-* [Full documentation at GitHub.io](https://24hoursmedia.github.io/docker-nginx-ssl-terminator/){:target="_blank"}
-* [Github repository](https://github.com/24HOURSMEDIA/docker-nginx-ssl-terminator){:target="_blank"}
+* [Full documentation at GitHub.io](https://24hoursmedia.github.io/docker-nginx-ssl-terminator/)
+* [Github repository](https://github.com/24HOURSMEDIA/docker-nginx-ssl-terminator)
 
 Lightweight ssl terminator configurable with env variables.
 Requests to the http port will be redirected to the https port.
