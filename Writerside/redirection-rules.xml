@@ -10,4 +10,8 @@
         <description>Created after removal of "About docs" from Nginx SSL Terminator for Docker</description>
         <accepts>starter-topic.html</accepts>
     </rule>
+    <rule id="34a085b5">
+        <description>Created after removal of "Examples" from Nginx SSL Terminator for Docker</description>
+        <accepts>Examples2.html</accepts>
+    </rule>
 </rules>
