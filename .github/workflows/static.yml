@@ -1,0 +1,27 @@
+name: Deploy ZIP to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main  # or your default branch
+  workflow_dispatch:
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+      - name: Setup Pages
+        uses: actions/configure-pages@v3
+      - name: Unzip Files
+        run: |
+          unzip docs/webHelpD2-all.zip -d docs/github-pages
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v2
+        with:
+            path: './docs/github-pages'
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2
