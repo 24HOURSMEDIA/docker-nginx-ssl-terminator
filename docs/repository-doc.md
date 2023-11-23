@@ -1,6 +1,7 @@
 # Docker Nginx SSL Terminator
 
-# Nginx SSL Terminator
+* [Full documentation at GitHub.io](https://24hoursmedia.github.io/docker-nginx-ssl-terminator/){:target="_blank"}
+* [Github repository](https://github.com/24HOURSMEDIA/docker-nginx-ssl-terminator){:target="_blank"}
 
 Lightweight ssl terminator configurable with env variables.
 Requests to the http port will be redirected to the https port.
@@ -32,9 +33,9 @@ version: '3.7'
 services:
 
   sslterminator:
-    image: nginx-ssl-terminator:1.0-latest
+    image: 24hoursmedia/nginx-ssl-terminator:1.0-latest
     ports:
-      # expose on https port 443 on the host, and http port 80 for redirecting https
+      # expose on port 443 on the host, and port 80 for redirecting to 443
       - "443:443"
       - "80:80"
     environment:
