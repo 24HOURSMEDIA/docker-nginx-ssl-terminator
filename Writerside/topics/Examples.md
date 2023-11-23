@@ -1,3 +1,4 @@
 # Examples
 
-Start typing here...
+Here are some examples of how to use the SSL terminator.
+
