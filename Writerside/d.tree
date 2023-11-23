@@ -10,5 +10,4 @@
     <toc-element topic="Configuration.md"/>
     <toc-element topic="SSL-Certificates.md"/>
     <toc-element topic="Examples.md"/>
-    <toc-element topic="starter-topic.md"/>
 </instance-profile>
