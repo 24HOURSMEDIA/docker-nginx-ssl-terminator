@@ -3,6 +3,9 @@
 Lightweight SSL terminator, ready to use in docker-compose or a docker swarm stack.
 Terminates SSL and forwards requests to a backend.
 
+* Github repository: https://github.com/24HOURSMEDIA/docker-nginx-ssl-terminator/issues
+* Docker hub: https://hub.docker.com/r/24hoursmedia/nginx-ssl-terminator
+
 ## Features
 
 * https termination for a single host

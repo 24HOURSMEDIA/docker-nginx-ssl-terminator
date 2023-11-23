@@ -12,4 +12,5 @@
     <toc-element topic="Examples.md">
         <toc-element topic="Basic-docker-compose.md"/>
     </toc-element>
+    <toc-element topic="Future-plans-and-improvements.md"/>
 </instance-profile>
