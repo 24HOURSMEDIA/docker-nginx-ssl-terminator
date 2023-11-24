@@ -6,3 +6,4 @@ Lightweight SSL terminator.
 * [Github repository](https://github.com/24HOURSMEDIA/docker-nginx-ssl-terminator)
 
 
+--
