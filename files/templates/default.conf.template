@@ -20,6 +20,11 @@ server {
     ssl_certificate ${SSL_CERT};
     ssl_certificate_key ${SSL_CERT_KEY};
 
+    # large file uploads
+    client_header_timeout 180;
+    client_body_timeout   180;
+    client_max_body_size  128M;
+
     location / {
         proxy_pass http://backend; # Forward requests to your backend server on port 80
         proxy_set_header Host $host;
