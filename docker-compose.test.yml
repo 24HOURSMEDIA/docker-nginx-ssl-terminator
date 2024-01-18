@@ -12,8 +12,8 @@ services:
       - 8443:443
       - 8480:80
     environment:
-      - "BACKEND_HOST=nginx"
+      - "BACKEND_HOST=backendserver"
 
-  nginx:
+  backendserver:
     image: nginx:1.19.6-alpine
 
