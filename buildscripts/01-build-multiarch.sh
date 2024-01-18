@@ -44,7 +44,7 @@ check_env "IMAGE_NAME"
   docker buildx inspect ${BUILDER_NAME} --bootstrap
 
   # Build and push the image for multiple architectures
-  docker buildx build --platform linux/amd64,linux/arm64/v8,linux/arm/v7 \
+  docker buildx build --platform "linux/amd64,linux/arm64/v8,linux/arm/v7" \
       -t $IMAGE_NAME:$IMAGE_TAG \
       --build-arg NGINX_IMAGE=nginx:${NGINX_VERSION} \
       --push \
